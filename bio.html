@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio — Christopher's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+    <style>
+        .bio-content {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: var(--spacing-xl);
+            margin-bottom: var(--spacing-xl);
+        }
+        
+        .bio-sidebar h4 {
+            color: var(--text-primary);
+            font-weight: 600;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .bio-text p {
+            font-size: 1.125rem;
+            color: var(--text-secondary);
+            margin-bottom: var(--spacing-md);
+            max-width: 65ch;
+            line-height: 1.8;
+        }
+
+        @media (max-width: 768px) {
+            .bio-content {
+                grid-template-columns: 1fr;
+                gap: var(--spacing-md);
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+            <a href="index.html" class="nav-brand">CHRISTOPHER</a>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">☰</button>
+            <ul class="nav-links">
+                <li><a href="work.html">Work</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="anecdotes.html">Experiments</a></li>
+                <li><a href="bio.html" class="active">Bio</a></li>
+                <li><a href="https://christophercostes.com/s/Christopher_Costes_Designer.pdf" target="_blank">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container" style="padding-top: var(--spacing-xl);">
+        <header class="fade-in" style="margin-bottom: var(--spacing-xl);">
+            <h1>Bio</h1>
+        </header>
+
+        <section class="fade-in">
+            <div class="bio-content">
+                <div class="bio-sidebar">
+                    <h4>A Brief Bio:</h4>
+                </div>
+                <div class="bio-text">
+                    <p>As a designer, I thrive on complexity and create solutions by leveraging both innovation and practicality. My strengths are in sytems thinking, synthesis, and strategic planning, together these allow me to surface the invisible, address the whole with parts, and build far-future ideas.</p>
+                    <p>When starting and project I prototype to de-risk and learn quickly by listening. While I’m always excited to try new methods, I gravitate towards frameworks that prioritize sense-making and focus on defined outcomes.</p>
+                    <p>See more of my work on <a href="https://christophercostes.medium.com" target="_blank" style="color: var(--text-primary); text-decoration: underline;">Medium</a>.</p>
+                    <p style="margin-top: 1.5rem">
+                        <strong>I’m currently looking for roles related to:</strong><br>
+                        - Service design<br>
+                        - Strategic design<br>
+                        - Futuring/Visioning
+                    </p>
+                </div>
+            </div>
+
+            <div class="bio-content list-item" style="border-top: 1px solid var(--border-color); padding-top: var(--spacing-xl);">
+                <div class="bio-sidebar">
+                    <h4>My Background:</h4>
+                </div>
+                <div class="bio-text">
+                    <p>For better or for worse, I didn’t start my career as a design. After an undergrad at UC Berkeley, I was a writer and paralegal, with plans to attend law schools and to become a lawyer. Looking back, I’m grateful for the experience, the writing gave me empathy, creativity, and story-telling while law taught me logic. This combination of creativity and analytical thinking has been key to my success as a designer.</p>
+                </div>
+            </div>
+
+            <div class="bio-content list-item">
+                <div class="bio-sidebar">
+                    <h4>My Teamwork:</h4>
+                </div>
+                <div class="bio-text">
+                    <p>Good design always means good collaboration. Wether leading a large and cross-functional teams or being the design-team-of-one, I always strive for close collaboration within the team and beyond.</p>
+                    <p>Being part of a team is an opportunity to make something meaningful, but also to learn, teach, and make connections.</p>
+                </div>
+            </div>
+
+            <div class="bio-content list-item">
+                <div class="bio-sidebar">
+                    <h4>My Thoughts on Design:</h4>
+                </div>
+                <div class="bio-text">
+                    <p>Design should always communicate clearly and reveal connection.</p>
+                    <p>With strong communication, design is cross-functional and a resource to everyone. When design makes connections it unlocks opportunities that can combine technology and people. By leveraging these two features, design can facilitate an environment of continuous improvement.</p>
+                </div>
+            </div>
+
+            <div class="bio-content list-item" style="border-bottom: none;">
+                <div class="bio-sidebar">
+                    <h4>My Weekends and Free Time:</h4>
+                </div>
+                <div class="bio-text">
+                    <p>I love to read. Design books yes, but also lots of sci-fi and speculative fiction. Cooking for friends brings me a lot of joy, wether its cramming people into tiny kitchens or large formal feast. Most weekends you can find me riding bikes, building semi-stable furniture, and overwatering my plants.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div>
+                <h3>Let’s chat soon!</h3>
+                <a href="mailto:christophercostes@gmail.com" style="font-size: 1.25rem;">christophercostes@gmail.com</a>
+            </div>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/christophercostes/" target="_blank">Linkedin</a>
+                <span>|</span>
+                <a href="https://christophercostes.medium.com" target="_blank">Medium</a>
+                <span>|</span>
+                <a href="https://christophercostes.com/s/Christopher_Costes_Designer.pdf" target="_blank">Download Resume</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/main.js"></script>
+</body>
+</html>
