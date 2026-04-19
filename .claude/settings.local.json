@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"/Users/chriscostes/Desktop/Demo Claude Project/Portfolio Test Site Claude version\"/*.html)",
+      "WebFetch(domain:www.christophercostes.com)",
+      "Bash(grep -l \"inline-placeholder-image\\\\|card-img\\\\\"></div>\" *.html)"
+    ]
+  }
+}
